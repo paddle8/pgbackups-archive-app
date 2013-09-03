@@ -19,7 +19,6 @@ class RunPgbackupsArchive
   # include NewRelic::Agent::Instrumentation::ControllerInstrumentation
 
   def call
-    raise "Testing PG Backup error reporting"
     Heroku::Client::PgbackupsArchive.perform
   end
 
