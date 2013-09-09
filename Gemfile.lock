@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:paddle8/pgbackups-archive.git
+  remote: https://github.com/paddle8/pgbackups-archive.git
   revision: 35fb4e55a799df3c0e355523fbfe29c6d1d89963
   specs:
     pgbackups-archive (0.2.0)
